@@ -1,4 +1,4 @@
-class Sceptre < Formula
+class SceptreAT1 < Formula
   include Language::Python::Virtualenv
 
   desc "Build better AWS infrastructure"
