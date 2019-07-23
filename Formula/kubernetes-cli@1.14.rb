@@ -1,4 +1,4 @@
-class KubernetesCli < Formula
+class KubernetesCliAT114 < Formula
   desc "Kubernetes command-line interface"
   homepage "https://kubernetes.io/"
   url "https://github.com/kubernetes/kubernetes.git",
