@@ -10,7 +10,7 @@ class KubernetesCliAT116 < Formula
     cellar :any_skip_relocation
   end
 
-  depends_on "go@1.12" => :build
+  depends_on "go" => :build
 
   def install
     ENV["GOPATH"] = buildpath
