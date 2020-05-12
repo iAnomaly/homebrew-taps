@@ -7,7 +7,9 @@ class KubernetesCliAT116 < Formula
   head "https://github.com/kubernetes/kubernetes.git"
 
   bottle do
+    root_url "https://raw.githubusercontent.com/iAnomaly/homebrew-taps/master/Bottles/"
     cellar :any_skip_relocation
+    sha256 "b952272c35fdb4bb908fa28d5274f0f2089051efb9f63d289dc398da9d7daf38" => :catalina
   end
 
   depends_on "go" => :build
